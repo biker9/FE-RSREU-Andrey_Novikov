@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+</head>
+<body>
+  <h1>Task 3</h1>
+  <h1>The Form</h1>
+  <form action="http://httpbin.org/post" method="post">   
+    <fieldset>
+      <legend>Personal data</legend>
+        <table>
+           <tr>
+               <td><label for="surname">Surname name</label></td>
+               <td> <input type="text" name="surnamename" value="" id="surname"></td>
+            </tr>
+          <tr>
+              <td><label for="firstname">First name</label></td>
+               <td><input type="text" name="firstname" value="" id="firstname"></td>
+          </tr>
+          <tr>
+              <td><label for="middlename">Middle name</label></td>
+           <td><input type="text" name="middlename" value="" id="middlename"></td>
+          </tr>
+          <tr>
+              <td><label for="male">You are</label></td>
+           <td><label><input type="radio" name="sex" value="male" checked id="male"> male</label>
+               <label><input type="radio" name="sex" value="female"> female</label></td>
+           </tr>
+           <tr>
+               <td><label for="age">Age</label></td>
+            <td><input type="text" name="age" value="" id="age"></td>
+           </tr>
+           <tr>
+               <td><label for="1">City</label></td>
+            <td><label><input type="checkbox" id="1">Ryazan </label> 
+                <label><input type="checkbox">Moscow</label>
+            </td>
+                 </table>
+        <label for="img">Photography</label><input type="file"  name="img" id="img"><hr>
+        <table>
+          <tr>
+              <td>Title</td>
+      <td><select name="title" id="2" size="8">
+         <optgroup label="Techologies">
+             <option value="webmaster">Web Master</option>
+             <option value="databaseadministrator">Database Administrator</option>
+             <option value="Compruter-aideddesign"> Compruter-aided design</option>
+         </optgroup>
+              
+         <optgroup label="Finance">
+             <option value="webmaster">Economic Pianning</option>
+             <option value="databaseadministrator">Management accounting</option>
+             <option value="Compruter-aideddesign"> Budgeting and planning</option>
+         </optgroup>              
+        </select>
+              </td></tr>
+              <tr>
+                  <td>Salary</td>
+                  <td><input type="range" id="salary" min="1" max="10"></td>
+          </tr>
+   <tr>
+   <td colspan="2"><textarea name="message" rows="10" cols="30" placeholder="Tell us about yourself..." value=""></textarea>
+       </td>
+       </tr>
+        </table>
+    </fieldset>
+        
+        
+        <fieldset>
+      <legend>Contact Information:</legend>
+      <table>
+      <tr>
+          <td><label for="site">Site</label></td>
+          <td><input type="url" name="Site" value="" id="site"></td>
+        </tr>
+      <tr>
+          <td><label for="email">Email</label></td>
+          <td><input type="email" name="Email" value="" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone</label></td>
+      <td><input type="tel" name="Phone" value="" id="phone"></td>
+            </tr>
+    </table>                
+    </fieldset>
+    <br>
+    <table>
+    <tr>
+        <td><label for="pass">Password</label></td> 
+        <td><input type="password" name="password" value="" id="pass" required></td></tr>
+    </table>        
+    <hr>
+    <table>
+   <tr><td><input type="submit" value="Отправить" >
+       <input type="reset" value="Сбросить"></td>
+         </tr>    
+</table>
+  </form>
+  <br><br>
+       <form action="http://httpbin.org/get" method="get">   
+    <fieldset>
+      <legend>Personal data</legend>
+        <table>
+           <tr>
+               <td><label for="surname2">Surname name</label></td>
+               <td> <input type="text" name="surnamename" value="" id="surname2"></td>
+            </tr>
+          <tr>
+              <td><label for="firstname2">First name</label></td>
+               <td><input type="text" name="firstname" value="" id="firstname2"></td>
+          </tr>
+          <tr>
+              <td><label for="middlename2">Middle name</label></td>
+           <td><input type="text" name="middlename" value="" id="middlename2"></td>
+          </tr>
+          <tr>
+              <td><label for="male">You are</label></td>
+           <td><label><input type="radio" name="sex" value="male" checked id="male"> male</label>
+               <label><input type="radio" name="sex" value="female"> female</label></td>
+           </tr>
+           <tr>
+               <td><label for="age2">Age</label></td>
+            <td><input type="text" name="age2" value="" id="age2"></td>
+           </tr>
+           <tr>
+               <td><label for="2">City</label></td>
+            <td><label><input type="checkbox" id="2">Ryazan </label> 
+                <label><input type="checkbox">Moscow</label>
+            </td>
+                 </table>
+        <label for="img2">Photography</label><input type="file"  name="img" id="img2"><hr>
+        <table>
+          <tr>
+              <td>Title</td>
+      <td><select name="title" id="2" size="8">
+         <optgroup label="Techologies">
+             <option value="webmaster">Web Master</option>
+             <option value="databaseadministrator">Database Administrator</option>
+             <option value="Compruter-aideddesign"> Compruter-aided design</option>
+         </optgroup>
+              
+         <optgroup label="Finance">
+             <option value="webmaster">Economic Pianning</option>
+             <option value="databaseadministrator">Management accounting</option>
+             <option value="Compruter-aideddesign"> Budgeting and planning</option>
+         </optgroup>              
+        </select>
+              </td></tr>
+              <tr>
+                  <td>Salary</td>
+                  <td><input type="range" id="salary" min="1" max="10"></td>
+          </tr>
+   <tr>
+   <td colspan="2"><textarea name="message" rows="10" cols="30" placeholder="Tell us about yourself..." value=""></textarea>
+       </td>
+       </tr>
+        </table>
+    </fieldset>
+        
+        
+        <fieldset>
+      <legend>Contact Information:</legend>
+      <table>
+      <tr>
+          <td><label for="site2">Site</label></td>
+          <td><input type="url" name="Site" value="" id="site2"></td>
+        </tr>
+      <tr>
+          <td><label for="email2">Email</label></td>
+          <td><input type="email" name="Email" value="" id="email2"></td>
+            </tr>
+            <tr>
+                <td><label for="phone2">Phone</label></td>
+      <td><input type="tel" name="Phone" value="" id="phone2"></td>
+            </tr>
+    </table>                
+    </fieldset>
+    <br>
+    <table>
+    <tr>
+        <td><label for="pass2">Password</label></td> 
+        <td><input type="password" name="password" value="" id="pass2" required></td></tr>
+    </table>        
+    <hr>
+    <table>
+   <tr><td><input type="submit" value="Отправить">
+       <input type="reset" value="Сбросить"></td>
+         </tr>    
+</table>
+  </form>
+</body>
+</html>

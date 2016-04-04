@@ -1,0 +1,140 @@
+h2{
+    padding-top: 0px;
+}
+
+#cb {
+    margin-top: 10px;
+}
+
+#ta {
+    margin-top: 200px;
+}
+#circleG{
+	width:150px;
+}
+
+.circleG{
+	background-color:rgb(255,255,255);
+	float:left;
+	height:31px;
+	margin-left:17px;
+	width:31px;
+	animation-name:bounce_circleG;
+	animation-duration:2.6s;
+	animation-iteration-count:infinite;
+	border-radius:20px;
+}
+
+#circleG_1{
+    animation-delay:2s;
+    background-color:rgb(255,0,0);
+}
+
+#circleG_2{
+	animation-delay:1.5s;
+    background-color:rgb(255,255,0);
+}
+
+#circleG_3{
+	animation-delay:1s;
+    background-color:rgb(0,255,0);
+}
+
+@keyframes bounce_circleG{
+	50%{
+		background-color:rgb(255,255,255);
+	}
+}
+
+#block {
+    width: 150px;
+}
+
+.block {
+    float: left;
+}
+
+#block1 {
+    background: black;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    position: static;
+}
+
+#block2 {
+    background: black;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    position: static;
+}
+
+#circle {
+    background: grey;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 100px;
+    animation-name: bounce_movingBallG;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bounce_movingBallG { 
+    100% {transform: translate(0,50px);
+    }   
+}
+
+@keyframes myRotate {
+  0% { 
+    transform: rotate(0deg);
+    border-radius: 0;
+  }
+
+  100%  { 
+    transform: rotate(360deg);
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+  }
+}
+#thirdAnim {
+    background: linear-gradient(100deg, white, green);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation-name: myRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: alternate-reverse;
+    transition-timing-function: linear;
+}
+
+@keyframes myRotate {
+    0% {
+        
+    }
+    15% {
+        border-radius: 0;
+    }
+    30% {
+        background: linear-gradient(red, orange, yellow, green, blue, indigo, violet, red);
+    }
+    45% {
+        width: 50px;
+        height: 50px;
+        transform: skewX(120deg);
+        transform: skewY(40deg);
+    }
+    60% {
+        transform: rotate(360deg);
+    }
+    75% {
+        background: radial-gradient(red, yellow);
+    }
+    100% {
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,8 @@
+table{
+      border-collapse: collapse;
+      border: 4px outset;
+    }
+td { 
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 4px outset; /* Граница вокруг ячеек */
+   }

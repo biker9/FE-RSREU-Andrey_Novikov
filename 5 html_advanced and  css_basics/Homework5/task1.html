@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+</head>
+<body>
+ <h1>Task 1</h1>
+  <form action="http://httpbin.org/post" method="post">
+    <fieldset>
+      <legend>Personal data</legend>
+      <table>
+       <tr>
+           <td>First Name</td>
+           <td><input type="text" name="firstname" value=""></td>
+          </tr>
+      <tr>
+          <td>Surname</td>
+          <td><input type="text" name="surname" value=""></td>
+      </tr>
+      <tr>
+          <td>Sex</td>
+        <td><label><input type="radio" name="sex" value="male" checked> Male</label>
+            <label><input type="radio" name="sex" value="female"> Female</label></td>
+          </tr>
+        </table>  
+    </fieldset>
+    <fieldset>
+      <legend>Contact Information:</legend>
+       <table>
+       <tr>
+           <td>Site</td>
+           <td><input type="url" name="Site" value=""></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="Email" value=""></td>
+           </tr>
+        <tr>   
+            <td>Phone</td>
+            <td><input type="tel" name="Phone" value=""></td>
+           </tr>
+        </table>
+    </fieldset>
+    <br>
+    <input type="submit" value="Отправить">
+</form>
+
+<br>
+<form action="http://httpbin.org/get" method="get">
+    <fieldset>
+      <legend>Personal data</legend>
+      <table>
+       <tr>
+           <td>First Name</td>
+           <td><input type="text" name="firstname" value=""></td>
+          </tr>
+      <tr>
+          <td>Surname</td>
+          <td><input type="text" name="surname" value=""></td>
+      </tr>
+      <tr>
+          <td>Sex</td>
+        <td><label><input type="radio" name="sex" value="male" checked> Male</label>
+            <label><input type="radio" name="sex" value="female"> Female</label></td>
+          </tr>
+        </table>  
+    </fieldset>
+    <fieldset>
+      <legend>Contact Information:</legend>
+       <table>
+       <tr>
+           <td>Site</td>
+           <td><input type="url" name="Site" value=""></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="Email" value=""></td>
+           </tr>
+        <tr>   
+            <td>Phone</td>
+            <td><input type="tel" name="Phone" value=""></td>
+           </tr>
+        </table>
+    </fieldset>
+    <br>
+    <input type="submit" value="Отправить">
+</form>  
+</body>
+</html>
+  

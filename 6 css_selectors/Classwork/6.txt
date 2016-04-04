@@ -1,0 +1,26 @@
+plate
+bento
+#fancy
+plate apple
+#fancy pickle
+.small
+orange.small
+...bento orange  
+bento, plate
+*
+plate *
+plate+apple
+bento ~ pickle
+plate> apple
+plate orange:first-child
+plate *:only-child
+plate apple:last-child, pickle
+plate:nth-child(3)
+*:nth-last-child(4)
+apple:first-of-type
+plate:nth-of-type(even)
+plate:nth-of-type(2n+3)
+plate apple:only-of-type
+orange:last-of-type, apple:last-of-type
+bento:empty
+apple:not(.small)

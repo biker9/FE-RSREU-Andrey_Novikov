@@ -1,0 +1,19 @@
+table { 
+  width: 100%; 
+  border-spacing: 0;
+  color: rgb(117,134,151);
+    
+}
+
+table  tr:nth-child(2n + 1) {
+  background: rgb(227,234,243); 
+} 
+
+table  tr:nth-child(2n + 2) {
+  background: rgb(242,246,250); 
+} 
+
+table  tr:not(:first-child):hover {
+  background: rgba(96, 125, 139, 0.5);
+  cursor: pointer;
+}

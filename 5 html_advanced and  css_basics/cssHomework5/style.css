@@ -1,0 +1,65 @@
+h1{color: blue; font-size: 36px;}
+h2 {
+  background-color:red;
+  width: 299px;            
+  height: 45px;
+  margin: 45px;
+  padding: 65px; 
+    letter-spacing: 100px;
+}
+html {
+  font-size: 20px
+  
+}
+
+#p1 {
+  background-color: #ff0000; /* red */
+ font-family: sans-serif;  
+    color: rgba(100%, 100%, 100%, .5);
+    text-decoration: underline;
+}   
+
+#p2 {
+  background-color: #00ff00; /* green */
+  padding: 10px;
+    font-family: "arial";
+    text-decoration: overline;
+}   
+
+.highlight {
+  background-color: #0000ff; /* blue */
+  color: #CCC;
+    font-size: 1.5em;
+  font-variant: small-caps;
+  font-weight:500;
+     text-align: justify;  
+}   
+
+#myfavdiv {
+  background-color: rgba(255, 0, 0, 0.5); /* red */
+    font-family: "Courier New";
+    font-style: italic;
+    text-decoration: line-through;
+}   
+
+#p3 {
+  background-color: rgba(0, 255, 0, .4); /* green */
+  padding: 10px;
+  margin: 20px;
+    font-family: "georgia";
+    
+}   
+
+.smalldivs {
+  background-color: rgba(0, 0, 255, .9); /* blue */
+  color: rgba(100%, 100%, 80%, .9);
+     font-style: oblique;
+}   
+
+p {
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+  font-variant: small-caps;
+    text-shadow: h-shadow;
+}
